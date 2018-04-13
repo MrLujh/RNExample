@@ -1,0 +1,55 @@
+PODS:
+  - React/ART (0.33.1):
+    - React/Core
+  - React/Core (0.33.1):
+    - React/CSSLayout
+  - React/CSSLayout (0.33.1)
+  - React/RCTActionSheet (0.33.1):
+    - React/Core
+  - React/RCTAdSupport (0.33.1):
+    - React/Core
+  - React/RCTGeolocation (0.33.1):
+    - React/Core
+  - React/RCTImage (0.33.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.33.1):
+    - React/Core
+  - React/RCTNetwork (0.33.1):
+    - React/Core
+  - React/RCTPushNotification (0.33.1):
+    - React/Core
+  - React/RCTSettings (0.33.1):
+    - React/Core
+  - React/RCTText (0.33.1):
+    - React/Core
+  - React/RCTVibration (0.33.1):
+    - React/Core
+  - React/RCTWebSocket (0.33.1):
+    - React/Core
+
+DEPENDENCIES:
+  - React/ART (from `./RN/node_modules/react-native`)
+  - React/Core (from `./RN/node_modules/react-native`)
+  - React/RCTActionSheet (from `./RN/node_modules/react-native`)
+  - React/RCTAdSupport (from `./RN/node_modules/react-native`)
+  - React/RCTGeolocation (from `./RN/node_modules/react-native`)
+  - React/RCTImage (from `./RN/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./RN/node_modules/react-native`)
+  - React/RCTNetwork (from `./RN/node_modules/react-native`)
+  - React/RCTPushNotification (from `./RN/node_modules/react-native`)
+  - React/RCTSettings (from `./RN/node_modules/react-native`)
+  - React/RCTText (from `./RN/node_modules/react-native`)
+  - React/RCTVibration (from `./RN/node_modules/react-native`)
+  - React/RCTWebSocket (from `./RN/node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "./RN/node_modules/react-native"
+
+SPEC CHECKSUMS:
+  React: 8619f2b7f2de4279293e090a19fdf5c9f63f20be
+
+PODFILE CHECKSUM: baa4b2e5ad04be4a95e7a22c8747177a035ae896
+
+COCOAPODS: 1.5.0

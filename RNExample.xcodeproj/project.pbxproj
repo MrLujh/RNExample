@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE5716F20807B0900D38523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE5716E20807B0900D38523 /* AppDelegate.m */; };
+		2EE5717220807B0900D38523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE5717120807B0900D38523 /* ViewController.m */; };
+		2EE5717520807B0900D38523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE5717320807B0900D38523 /* Main.storyboard */; };
+		2EE5717720807B0B00D38523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE5717620807B0B00D38523 /* Assets.xcassets */; };
+		2EE5717A20807B0B00D38523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE5717820807B0B00D38523 /* LaunchScreen.storyboard */; };
+		2EE5717D20807B0B00D38523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE5717C20807B0B00D38523 /* main.m */; };
+		2EE571A220807F4D00D38523 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE571A120807F4D00D38523 /* RNViewController.m */; };
+		2EE571A520807FF300D38523 /* RNBridgeEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE571A420807FF300D38523 /* RNBridgeEventManager.m */; };
+		2EE571A82080800400D38523 /* RNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE571A72080800400D38523 /* RNView.m */; };
+		6E3E80A6CFFDABDC48FDAC51 /* libPods-RNExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1D5DBF08D51013FFF52ECA /* libPods-RNExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C1D5DBF08D51013FFF52ECA /* libPods-RNExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE5716A20807B0900D38523 /* RNExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE5716D20807B0900D38523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE5716E20807B0900D38523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE5717020807B0900D38523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EE5717120807B0900D38523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EE5717420807B0900D38523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EE5717620807B0B00D38523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EE5717920807B0B00D38523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EE5717B20807B0B00D38523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE5717C20807B0B00D38523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE571A020807F4D00D38523 /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
+		2EE571A120807F4D00D38523 /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
+		2EE571A320807FF300D38523 /* RNBridgeEventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeEventManager.h; sourceTree = "<group>"; };
+		2EE571A420807FF300D38523 /* RNBridgeEventManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeEventManager.m; sourceTree = "<group>"; };
+		2EE571A62080800400D38523 /* RNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNView.h; sourceTree = "<group>"; };
+		2EE571A72080800400D38523 /* RNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNView.m; sourceTree = "<group>"; };
+		C82432AAA441C34BB359755C /* Pods-RNExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNExample/Pods-RNExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D2E1D00C92C8FBE975C35412 /* Pods-RNExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNExample/Pods-RNExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE5716720807B0900D38523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3E80A6CFFDABDC48FDAC51 /* libPods-RNExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE5716120807B0900D38523 = {
+			isa = PBXGroup;
+			children = (
+				2EE5716C20807B0900D38523 /* RNExample */,
+				2EE5716B20807B0900D38523 /* Products */,
+				64D5C4C0741B0354FCDA9889 /* Pods */,
+				696DAEA1FABBBC0C727A0A7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE5716B20807B0900D38523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE5716A20807B0900D38523 /* RNExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE5716C20807B0900D38523 /* RNExample */ = {
+			isa = PBXGroup;
+			children = (
+				2EE5716D20807B0900D38523 /* AppDelegate.h */,
+				2EE5716E20807B0900D38523 /* AppDelegate.m */,
+				2EE5717020807B0900D38523 /* ViewController.h */,
+				2EE5717120807B0900D38523 /* ViewController.m */,
+				2EE571A020807F4D00D38523 /* RNViewController.h */,
+				2EE571A120807F4D00D38523 /* RNViewController.m */,
+				2EE571A62080800400D38523 /* RNView.h */,
+				2EE571A72080800400D38523 /* RNView.m */,
+				2EE571A320807FF300D38523 /* RNBridgeEventManager.h */,
+				2EE571A420807FF300D38523 /* RNBridgeEventManager.m */,
+				2EE5717320807B0900D38523 /* Main.storyboard */,
+				2EE5717620807B0B00D38523 /* Assets.xcassets */,
+				2EE5717820807B0B00D38523 /* LaunchScreen.storyboard */,
+				2EE5717B20807B0B00D38523 /* Info.plist */,
+				2EE5717C20807B0B00D38523 /* main.m */,
+			);
+			path = RNExample;
+			sourceTree = "<group>";
+		};
+		64D5C4C0741B0354FCDA9889 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C82432AAA441C34BB359755C /* Pods-RNExample.debug.xcconfig */,
+				D2E1D00C92C8FBE975C35412 /* Pods-RNExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		696DAEA1FABBBC0C727A0A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C1D5DBF08D51013FFF52ECA /* libPods-RNExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE5716920807B0900D38523 /* RNExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE5719620807B0C00D38523 /* Build configuration list for PBXNativeTarget "RNExample" */;
+			buildPhases = (
+				231B6102BA493D4E3B9C0C52 /* [CP] Check Pods Manifest.lock */,
+				2EE5716620807B0900D38523 /* Sources */,
+				2EE5716720807B0900D38523 /* Frameworks */,
+				2EE5716820807B0900D38523 /* Resources */,
+				2EE5719F20807DF500D38523 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNExample;
+			productName = RNExample;
+			productReference = 2EE5716A20807B0900D38523 /* RNExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE5716220807B0900D38523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lujh;
+				TargetAttributes = {
+					2EE5716920807B0900D38523 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 2EE5716520807B0900D38523 /* Build configuration list for PBXProject "RNExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE5716120807B0900D38523;
+			productRefGroup = 2EE5716B20807B0900D38523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE5716920807B0900D38523 /* RNExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE5716820807B0900D38523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE5717A20807B0B00D38523 /* LaunchScreen.storyboard in Resources */,
+				2EE5717720807B0B00D38523 /* Assets.xcassets in Resources */,
+				2EE5717520807B0900D38523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231B6102BA493D4E3B9C0C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EE5719F20807DF500D38523 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n./RN/node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE5716620807B0900D38523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE571A220807F4D00D38523 /* RNViewController.m in Sources */,
+				2EE5717220807B0900D38523 /* ViewController.m in Sources */,
+				2EE571A82080800400D38523 /* RNView.m in Sources */,
+				2EE5717D20807B0B00D38523 /* main.m in Sources */,
+				2EE571A520807FF300D38523 /* RNBridgeEventManager.m in Sources */,
+				2EE5716F20807B0900D38523 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EE5717320807B0900D38523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE5717420807B0900D38523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EE5717820807B0B00D38523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE5717920807B0B00D38523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE5719420807B0C00D38523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EE5719520807B0C00D38523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE5719720807B0C00D38523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82432AAA441C34BB359755C /* Pods-RNExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M422A22FH;
+				INFOPLIST_FILE = RNExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.RNExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EE5719820807B0C00D38523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E1D00C92C8FBE975C35412 /* Pods-RNExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M422A22FH;
+				INFOPLIST_FILE = RNExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.RNExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE5716520807B0900D38523 /* Build configuration list for PBXProject "RNExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE5719420807B0C00D38523 /* Debug */,
+				2EE5719520807B0C00D38523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE5719620807B0C00D38523 /* Build configuration list for PBXNativeTarget "RNExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE5719720807B0C00D38523 /* Debug */,
+				2EE5719820807B0C00D38523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EE5716220807B0900D38523 /* Project object */;
+}

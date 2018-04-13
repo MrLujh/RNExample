@@ -1,0 +1,22 @@
+# platform :ios, '9.0'
+
+target 'RNExample' do
+ 
+  pod 'React', :path => './RN/node_modules/react-native', :subspecs => [
+    'Core',
+    'ART',
+    'RCTActionSheet',
+    'RCTAdSupport',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTPushNotification',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'RCTLinkingIOS',
+    ]
+  
+end
+
