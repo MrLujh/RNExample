@@ -63,7 +63,7 @@
       
 ## 项目中快速集成react-native步骤
 
-
+1.开发环境配置参照链接：https://reactnative.cn/docs/0.51/getting-started.html
 
 
 
