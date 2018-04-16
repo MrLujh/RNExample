@@ -272,6 +272,7 @@ moduleName:@"RN"要和index.ios.js中的注册想对应
 
 ![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_04.png)
 
-![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_01.png)
+
+
 ![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
 
