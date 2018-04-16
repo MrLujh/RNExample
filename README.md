@@ -65,6 +65,30 @@
 
 1.开发环境配置参照链接：https://reactnative.cn/docs/0.51/getting-started.html
 
+2.创建一个空项目，在项目目录下创建一个文件夹放ract-native相关文件，比如这个文件夹名字为RN,终端进入RN文件，touch index.ios.js;touch index.ios.js
+
+```objc       
+{
+    "name": "RNExample",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node node_modules/react-native/local-cli/cli.js start"
+    },
+    "dependencies": {
+        "react": "15.3.1",
+        "react-native": "^0.33.0"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-decorators-legacy": "^1.3.4"
+    }
+}
+```
+     "name": "RNExample"-----换成自己的项目名称
+3.
+
+4.touch index.ios.js
+
 
 
 
