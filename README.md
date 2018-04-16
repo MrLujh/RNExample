@@ -264,5 +264,14 @@ moduleName:@"RN"要和index.ios.js中的注册想对应
 
 组件中的创建相应的类和原生的项目中的类进行映射，名字一一对应，以及RN上控件的点击事件都是在组件中命名好的，原生界面只需要重写一次点击事件就可以了
 
+![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_01.png)
+
+![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_02.png)
+
+![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_03.png)
+
+![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_04.png)
+
+![Mou icon](https://github.com/MrLujh/RNExample/blob/master/Resource/resource_01.png)
 ![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
 
