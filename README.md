@@ -57,89 +57,10 @@
     * 对于普通复杂度的移动应用，使用 React Native 实现的安装包会比原生代码实现的安装包大。而当移动应用功能越复杂，React Native 安装包体积相比原生代码安装包就越小。
 比如当原生代码实现的安装包大于 15MB 时，使用 React Native 改写代码后，安装包就小于原生代码实现的安装包。
     
-## 使用    
+## React Native的优缺点深层分析请看下面链接：
 
-* 路由&无参数
-
-    * 由ViewController向TestViewController跳转，在ViewController中将通过路由找到TestViewController
-    
-```objc       
-UIViewController *doc = [[RouterManager sharedInstance]
-                             performAction:@"TestViewController"
-                             params:nil
-                             shouldCacheTarget:NO];
-
-[self.navigationController pushViewController:doc animated:YES];
-```
-
-* 路由&带参数
-
-    * 由ViewController向TestViewController跳转，在ViewController中将通过路由找到TestViewController，
-    传入的参数赋值给目标控制器，在TestViewController中只需声明一下入参接收对应的key
-```objc       
-@implementation UIViewController (routerManager)
-
-- (id)createVC:(NSDictionary *)dict{
-    
-    Class class = getClassFromAtcion(_cmd);
-    if (class) {
-        
-        UIViewController *doc = self;
-        doc = [[class alloc]init];
-        doc = [doc mj_setKeyValues:dict];
-        return doc;
-    }
-    return nil;
-}
-@end
-```
-
-```objc       
-UIViewController *doc = [[RouterManager sharedInstance]
-                             performAction:@"TestViewController"
-                             params:@{
-                                      @"info":@{
-                                              @"user":@"我是正向传值参数:push",
-                                              }
-                                      }
-                             shouldCacheTarget:NO];
-
-[self.navigationController pushViewController:doc animated:YES];
-```    
-
-* 路由&带参数&回调反向传值
-
-    * 在ViewController和TestViewController中同时声明一个blcok,在demo中有详细说明
-```objc       
-- (IBAction)popBtnClick:(UIButton *)sender
-{
-    
-    self.backblock(@"我是返回值参数:pop");
-    
-    [self.navigationController popViewControllerAnimated:YES];
-}
-```
-
-```objc       
-__weak typeof(self) weakSelf = self;
-self.backWithDict = ^(NSString *str) {
-        
-        weakSelf.backLabel.text = str;
-};
-    
-UIViewController *doc = [[RouterManager sharedInstance]
-                             performAction:@"TestViewController"
-                             params:@{
-                                      @"info":@{
-                                              @"user":@"我是正向传值参数:push",
-                                              },
-                                      @"backblock":self.backWithDict
-                                      }
-                             shouldCacheTarget:NO];
-
-[self.navigationController pushViewController:doc animated:YES];
-```    
-
-
+      http://www.sohu.com/a/206616854_100072094
+      
+      
 ![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
 
