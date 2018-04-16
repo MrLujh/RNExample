@@ -65,9 +65,10 @@
 
 1.开发环境配置参照链接：https://reactnative.cn/docs/0.51/getting-started.html
 
-2.创建一个空项目，在项目目录下创建一个文件夹放ract-native相关文件，比如这个文件夹名字为RN,终端进入RN文件，touch index.ios.js;touch index.ios.js
+2.创建一个空项目，在项目目录下创建一个文件夹放ract-native相关文件，比如这个文件夹名字为RN,终端进入RN文件，touch index.ios.js;touch package.json
 
-```objc       
+package.json文件的内容如下：
+```objc       
 {
     "name": "RNExample",
     "version": "0.0.1",
