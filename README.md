@@ -186,11 +186,46 @@ package.json文件的内容如下：
 }
 ```
      "name": "RNExample"-----换成自己的项目名称
-3.
+3.项目RN入口代码如下：
 
-4.touch index.ios.js
+```objc
+#if TARGET_IPHONE_SIMULATOR
+        [[RCTBundleURLProvider sharedSettings] setJsLocation:@"localhost"];
+#else
+        [[RCTBundleURLProvider sharedSettings] setDefaults];
+#endif
+        NSURL *jsCodeLocation;
+        jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+        
+        RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                            moduleName:@"RN"
+                                                     initialProperties:nil
+                                                         launchOptions:nil];
+        
+        [self addSubview:rootView];
+        rootView.frame = self.bounds;
+```
 
+moduleName:@"RN"要和index.ios.js中的注册想对应
 
+4.plist文件中网络请求设置
+
+```objc
+<key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>localhost</key>
+            <dict>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+
+```
 
 
 
