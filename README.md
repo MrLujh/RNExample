@@ -223,8 +223,8 @@ target 'RNExample' do
 end
 ``` 
    './RN/node_modules/react-native'---node_modules存放的路径
-   
-3.项目RN入口代码如下：
+   
+5.项目RN入口代码如下：
 
 ```objc
 #if TARGET_IPHONE_SIMULATOR
@@ -246,7 +246,7 @@ end
 
 moduleName:@"RN"要和index.ios.js中的注册想对应
 
-4.plist文件中网络请求设置
+6.plist文件中网络请求设置
 
 ```objc
 <key>NSAppTransportSecurity</key>
@@ -264,9 +264,9 @@ moduleName:@"RN"要和index.ios.js中的注册想对应
     </dict>
 
 ```
-5.终端进入RN文件下启动服务器：npm start
+7.终端进入RN文件下启动服务器：npm start
 
-6.通过xcode运行项目，按照上面的步骤来，不出意外项目就可以运行起来了。
+8.通过xcode运行项目，按照上面的步骤来，不出意外项目就可以运行起来了。
 
 ## react-native 和原生界面交互
 
