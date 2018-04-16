@@ -65,7 +65,7 @@
 
 1.开发环境配置参照链接：https://reactnative.cn/docs/0.51/getting-started.html
 
-2.创建一个空项目，在项目目录下创建一个文件夹放ract-native相关文件，比如这个文件夹名字为RN,终端进入RN文件，touch index.ios.js;touch rnview.js;touch package.json
+2.创建一个空项目，在项目目录下创建一个文件夹放相关文件，比如这个文件夹名字为RN,终端进入RN文件，touch index.ios.js;touch rnview.js;touch package.json
 
 index.ios.js文件的内容如下：
 
@@ -186,6 +186,36 @@ package.json文件的内容如下：
 }
 ```
      "name": "RNExample"-----换成自己的项目名称
+     
+ 3.通过终端进入RN文件下，运行：npm install  下载react-native库文件
+ 
+ 4.创建podfile文件,通过pod 把react-native和项目关联
+ 
+```objc 
+ # platform :ios, '9.0'
+
+target 'RNExample' do
+ 
+  pod 'React', :path => './RN/node_modules/react-native', :subspecs => [
+    'Core',
+    'ART',
+    'RCTActionSheet',
+    'RCTAdSupport',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTPushNotification',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'RCTLinkingIOS',
+    ]
+  
+end
+``` 
+   './RN/node_modules/react-native'---node_modules存放的路径
+   
 3.项目RN入口代码如下：
 
 ```objc
@@ -226,7 +256,9 @@ moduleName:@"RN"要和index.ios.js中的注册想对应
     </dict>
 
 ```
+5.终端进入RN文件下启动服务器：npm start
 
+6.通过xcode运行项目，按照上面的步骤来，不出意外项目就可以运行起来了。
 
 
 ![Mou icon](https://github.com/MrLujh/Fastlane--Packaging/blob/master/111.gif)
