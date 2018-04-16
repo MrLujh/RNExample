@@ -1,19 +1,8 @@
-# ☆☆☆ “RouteManager” ☆☆☆
-
-## 支持pod导入
-
-* pod 'RouteManager'
-
-* 执行pod search RouteManager提示搜索不到，可以执行以下命令更新本地search_index.json文件
-  
-```objc 
-rm ~/Library/Caches/CocoaPods/search_index.json
-```
-* 如果pod search还是搜索不到，执行pod setup命令更新本地spec缓存（可能需要几分钟），然后再搜索就可以了
+# RNExample---react-native 示例
 
 ## 前言
 
-* GitHub上比较主流路由和中间件实现方案，比如JLRoutes、MGJRouter、HHRouter、CTMediator
+* 对于 React Native，iOS 开发者社区也是褒贬不一。有一部分的开发者认为React Native无论在性能，开发成本还是效率都要比苹果原生那套要好，成为开发的首选；也有一部分的开发着认为React Native 不过是 Facebook 的又一个玩具，以它现在的稚嫩还难以对原生的 Swift/Objective-C 造成足够威胁。对一门新兴的技术是否值得在开发采用，取决于该技术的本身是否具备足够的优点和是否符合目前的开发需求。
 
     * JLRoutes提供的功能很多很杂，让人难以全面掌握，修改麻烦，甚至需要服务端提供支持，
     
