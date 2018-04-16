@@ -1,5 +1,13 @@
 # RNExample---react-native 示例
 
+## 示例项目运行步骤
+
+1.进入RN文件  终端运行：npm install
+
+2.进入项目目录  终端运行：pod install
+
+3.进入RN文件   终端运行：npm start,然后运行项目就可以了
+
 ## 前言
 
     对于 React Native，iOS 开发者社区也是褒贬不一。有一部分的开发者认为React Native无论在性能，开发成本还是效率都要比苹果原生那套要好，成为开发的首选；也有一部分的开发着认为React Native 不过是 Facebook 的又一个玩具，以它现在的稚嫩还难以对原生的 Swift/Objective-C 造成足够威胁。对一门新兴的技术是否值得在开发采用，取决于该技术的本身是否具备足够的优点和是否符合目前的开发需求。
