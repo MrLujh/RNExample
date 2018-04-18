@@ -1,7 +1,7 @@
 # RNExample---react-native 示例
 
 ## 示例项目运行步骤
-
+前天需要安装一下node.js，如果没有先安装一下
 1.进入RN文件  终端运行：npm install
 
 2.进入项目目录  终端运行：pod install
